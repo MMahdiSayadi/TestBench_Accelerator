@@ -108,18 +108,18 @@ This approach combines the flexibility of MATLAB for waveform generation and ana
 
 **The testbench output can be visualized in the screenshots below:**
 
-![file Reader](./images/matlabSimData.PNG) <br>
+![file Reader](./images/matlabSimData.png) <br>
 
-![file Reader](./images/fileReaderRes.PNG) <br>
+![file Reader](./images/fileReaderRes.png) <br>
 
 The image above shows the File Reader output. With the initiation interval parameter set to 20 and a testbench clock period of 5 ns, the valid signal asserts every 20 clock cycles, as observed in the waveform. You can also verify that the values read from the files match the expected testbench data.<br>
 
 
-![file Reader](./images/burstResult.PNG) <br>
+![file Reader](./images/burstResult.png) <br>
 
-![file Reader](./images/burstValues.PNG) <br>
+![file Reader](./images/burstValues.png) <br>
 The burst mode operation is shown above. These values can be cross-verified with the original MATLAB data to confirm correct functionality.
 
 
 ## Convert Result
-![file Reader](./images/convertResult.PNG) <br>
+![file Reader](./images/convertResult.png) <br>
